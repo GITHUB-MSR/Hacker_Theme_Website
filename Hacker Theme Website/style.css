@@ -1,0 +1,255 @@
+body {
+  font-family: Arial, sans-serif;
+background-image: url('file:///C:/Users/91709/Desktop/Hacker%20Theme%20Website/BG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#heading {
+  color: chartreuse;
+  font-family: Marske;
+  position: fixed; left:10%; top:25%;
+  letter-spacing: 6px;
+  -webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
+}
+#intro {
+  font-family: Marske;
+  color: chartreuse;
+  letter-spacing: 5px;
+  position: fixed;
+  left:10%; bottom:50%;
+  -webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
+}
+
+.typing-animation {
+  overflow: hidden;
+  /* Remove white-space: nowrap; */
+  font-size: 18px;
+  font-family: monospace;
+  animation: typing 4s steps(40, end);
+  line-break: auto;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+} 
+
+/* Set up the initial styling */
+#heading {
+  font-size: 24px;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Blinking caret animation */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+#drive-C{
+  color: red;
+      font-family: Marske;
+      text-shadow: 0 0 1px red;
+    position: fixed; left:53.5%; bottom: 16.3%;
+    }
+    #drive-name-C{
+  color: chartreuse;
+      font-family: Marske;
+    position: fixed; left:53.5%; bottom: 12.5%;
+    letter-spacing: 0.5px;
+    }
+   #C{
+  position: fixed; left:49%; bottom: 15%;
+}
+
+    #drive-D{
+  color: red;
+      font-family: Marske;
+      text-shadow: 0 0 1px red;
+    position: fixed; left:69.5%; bottom: 16.5%;
+    }
+    #drive-name-D{
+  color: chartreuse;
+      font-family: Marske;
+    position: fixed; left:69.5%; bottom: 12.5%;
+    letter-spacing: 0.5px;
+    }
+    #D{
+  position: fixed; left:65%; bottom: 15%;
+}
+
+
+
+
+#drive-E{
+  color: red;
+      font-family: Marske;
+      text-shadow: 0 0 1px red;
+    position: fixed; left:85.8%; bottom: 16.5%;
+    }
+    #drive-name-E{
+  color: chartreuse;
+      font-family: Marske;
+    position: fixed; left:85.8%; bottom: 12.5%;
+    letter-spacing: 0.5px;
+    }
+#E{
+  position: fixed; left:81.2%; bottom: 15%;
+}
+#E-drive{
+  display: none; /* Hide the div initially */
+    opacity: 0; /* Make the div transparent */
+    transition: opacity 1s;
+}
+#C-drive{
+  display: none; /* Hide the div initially */
+    opacity: 0; /* Make the div transparent */
+    transition: opacity 1s;
+}#D-drive{
+  display: none; /* Hide the div initially */
+    opacity: 0; /* Make the div transparent */
+    transition: opacity 1s;
+}
+
+
+
+
+
+  img{
+    width: 60px;
+    height: 60px;
+  }
+
+  a{
+    text-decoration: none;
+    color: chartreuse;
+  }
+  a:hover{
+    color: red;
+  }
+  #VS{
+    color: chartreuse;
+      font-family: Marske;
+      letter-spacing: 6px;
+    position: fixed; bottom: 13%; left:10%; 
+    font-size: 25px;
+    transition: 1s ease;
+  }
+  #VS:hover{
+    color: red;
+    text-shadow: 0 0 2.5px rgba(255, 0, 0, 0.8), 0 0 2.5px rgba(255, 0, 0, 0.8), 0 0  2.5px rgba(255, 0, 0, 0.8);
+    transition: 1s ease;
+    letter-spacing: 10px;
+  }
+
+  #DV{
+    color: chartreuse;
+      font-family: Marske;
+      letter-spacing: 6px;
+    position: fixed; bottom: 18%; left:10%; 
+    font-size: 25px;
+    transition: 1s ease;
+  }
+  #DV:hover{
+    color: red;
+    text-shadow: 0 0 2.5px rgba(255, 0, 0, 0.8), 0 0 2.5px rgba(255, 0, 0, 0.8), 0 0  2.5px rgba(255, 0, 0, 0.8);
+    transition: 1s ease;
+    letter-spacing: 10px;
+  }
+
+
+  #MSR{
+    color: chartreuse;
+      font-family: Marske;
+      letter-spacing: 6px;
+    position: fixed; bottom: 18%; left:30%; 
+    font-size: 25px;
+    transition: 1s ease;
+  }
+  #MSR:hover{
+    color: red;
+    text-shadow: 0 0 2.5px rgba(255, 0, 0, 0.8), 0 0 2.5px rgba(255, 0, 0, 0.8), 0 0  2.5px rgba(255, 0, 0, 0.8);
+    transition: 1s ease;
+    letter-spacing: 10px;
+  }
+
+
+
+
+  #DOC{
+    color: chartreuse;
+      font-family: Marske;
+      letter-spacing: 6px;
+    position: fixed; bottom: 13%; left:30%; 
+    font-size: 25px;
+    transition: 1s ease;
+  }
+  #DOC:hover{
+    color: red;
+    text-shadow: 0 0 2.5px rgba(255, 0, 0, 0.8), 0 0 2.5px rgba(255, 0, 0, 0.8), 0 0  2.5px rgba(255, 0, 0, 0.8);
+    transition: 1s ease;
+    letter-spacing: 10px;
+  }
+
+  iframe{
+    border: none;
+    overflow: hidden;
+    overflow-x: hidden;
+    width: 62%;
+    height: 500px;
+    z-index: -99;
+  }
+
+
+  
+body{
+  background-color: black;
+  font-family: Marske;
+  letter-spacing: 2px;
+}
+
+#ip, #location{
+  color: red;
+}
+#ios{
+  color: chartreuse;
+  font-size: 20px;
+}
+
+#gen{
+  position: fixed;
+  top:60%;
+  left: 58%;
+}
